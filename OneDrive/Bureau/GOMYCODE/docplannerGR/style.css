@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: Robot,Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.logo1{
+    margin-left: 90px;
+    height: 33px;
+    width: 268px;
+}
+
+.ul1{
+    margin-right: 90px;
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+    color:#ABABAB;
+    font-style: 15px;
+    line-height: 30px;
+}
+
+#aboutus{
+    color:#00B39B;
+}
+
+.li1:hover{
+    cursor: pointer;
+    color: #00B39B;
+}
+
+.ul2{
+    background-color: white;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    left: -150px;
+    padding: 12px 17px;
+    box-shadow: -4px 4px 17px 0px rgba(135,135,135,0.92);
+-webkit-box-shadow: -4px 4px 17px 0px rgba(135,135,135,0.92);
+-moz-box-shadow: -4px 4px 17px 0px rgba(135,135,135,0.92);
+}
+
+#departments{
+    cursor: pointer;
+    position: relative;
+}
+
+.li2{
+    color: #ABABAB;
+    margin-left:-15px;
+    margin-right: -15px;
+    padding: 8px 10px;
+}
+
+.li2:hover{
+    cursor: pointer;
+    background-color: #d1d1d1;
+    color: #00B39B;
+}
+
+#departments:hover .ul2{
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #00B39B;
+    align-self: center;
+}
+
+.icon1{
+    padding-top: 150px;
+    height: 39px;
+    width: 40px;
+    margin-left: 670px;
+    margin-top: 10px;
+}
+
+
+.paragraph1-2{
+    display: flex;
+    color: #757575;
+    margin-left: 170px;
+    margin-right: 170px;
+    gap: 40px;
+    line-height: 30px;
+}
+
+.section2{
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.forpatients{
+    margin-left: 150px;
+    color: white;
+    background-color:#00B39B;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.FP{
+    font-size: xx-large;
+}
+
+.fordoctors{
+    color: white;
+    background-color:#0033dbab;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.FD{
+    font-size: xx-large;
+}
+
+.forclinics{
+    margin-right: 150px;
+    background-color: rgb(8, 1, 32);
+    color:white;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.FC{
+    font-size: xx-large;
+}
+
+.list{
+    text-decoration: underline;
+}
+
+h2{
+    color: #00B39B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.GLOBAL{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+h2{
+    margin-left: 70px;
+}
+
+h4{
+    color:#ABABAB;
+    font-style: 15px;
+    line-height: 30px;
+}
+
+.local:hover{
+    cursor: pointer;
+    color: #00B39B;
+}
+
+#lastlocal{
+    margin-right: 50px;
+}
+
+.biggerpic{
+    width: 100%;
+}
+
+.paragraph3-4-5-6{
+    justify-content: center;
+    align-content: center;
+    color: #757575;
+    gap: 40px;
+    line-height: 30px;
+}
+
+#p3{
+    margin-top: 90px;
+    margin-left: 350px;
+    font-size: xx-large;
+    color: #00B39B;
+}
+
+#p4{
+    font-size: larger;
+    margin-left: 450px;
+}
+
+#p5{
+    font-size: larger;
+    margin-left: 350px;
+}
+
+#p6{
+    font-size: larger;
+    margin-left: 400px;
+}
